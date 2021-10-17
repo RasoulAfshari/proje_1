@@ -17,10 +17,12 @@ class MainActivity : AppCompatActivity() {
         val btn2 : Button = findViewById(R.id.ac_main_btn2)
 
         btn1.setOnClickListener {
-            if(edit1.length()==0) {
+            if(edit1.length()!=0) {
                 frm1.visibility = View.GONE
                 frm2.visibility = View.VISIBLE
             }
+            else
+                Toast.makeText(this ,"فیلد خالی است", Toast.LENGTH_SHORT).show()
         }
         btn2.setOnClickListener {
 
