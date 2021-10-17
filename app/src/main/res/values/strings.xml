@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">proje_1</string>
+    <string name="editname">name</string>
+    <string name="btn"> ورود</string>
+    <string name="edittext_hint">نام</string>
+    <string name="btn2">بازگشت ب عقب</string>
 </resources>
